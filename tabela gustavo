@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market Share Table</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #b0b318;
+        }
+        th:nth-child(2) {
+            background-color: #1cc716e5; /* Light purple for Android */
+        }
+        th:nth-child(3) {
+            background-color: #13c1ec; /* Light blue for iOS */
+        }
+        th:nth-child(4) {
+            background-color: #9c39f3f1; /* Light purple for Windows Phone */
+        }
+        th:nth-child(5) {
+            background-color: #ce5924; /* Light orange for Outros */
+        }
+        td:nth-child(2) {
+            background-color: #6bdb4f; /* Light purple for Android */
+        }
+        td:nth-child(3) {
+            background-color: #53afec; /* Light blue for iOS */
+        }
+        td:nth-child(4) {
+            background-color: #a74efa; /* Light purple for Windows Phone */
+        }
+        td:nth-child(5) {
+            background-color: #bd5916; /* Light orange for Outros */
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Período</th>
+        <th>Android</th>
+        <th>iOS iphone</th>
+        <th>Windows Phone</th>
+        <th>Outros</th>
+    </tr>
+    <tr>
+        <td>2016Q1</td>
+        <td>83.4%</td>
+        <td>15.4%</td>
+        <td>0.8%</td>
+        <td>0.4%</td>
+    </tr>
+    <tr>
+        <td>2016Q2</td>
+        <td>87.6%</td>
+        <td>11.7%</td>
+        <td>0.4%</td>
+        <td>0.3%</td>
+    </tr>
+    <tr>
+        <td>2016Q3</td>
+        <td>86.8%</td>
+        <td>12.5%</td>
+        <td>0.3%</td>
+        <td>0.4%</td>
+    </tr>
+    <tr>
+        <td>2016Q4</td>
+        <td>81.4%</td>
+        <td>18.2%</td>
+        <td>0.2%</td>
+        <td>0.2%</td>
+    </tr>
+    <tr>
+        <td>2017Q1</td>
+        <td>85.0%</td>
+        <td>14.7%</td>
+        <td>0.1%</td>
+        <td>0.1%</td>
+    </tr>
+</table>
+
+<p><em>Source: IDC, May 2017</em></p>
+
+</body>
+</html>
